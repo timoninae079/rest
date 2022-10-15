@@ -7,7 +7,7 @@ import static io.restassured.RestAssured.given;
 
 class MobileBankApiTestV2 {
     @Test
-    void shouldReturnDemoAccounts() {
+    public void shouldReturnDemoAccounts() {
       // Given - When - Then
       // Предусловия
       given()

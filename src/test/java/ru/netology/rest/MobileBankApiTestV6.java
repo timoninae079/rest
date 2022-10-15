@@ -19,7 +19,7 @@ class MobileBankApiTestV6 {
         .build();
 
     @Test
-    void shouldReturnDemoAccounts() {
+    public void shouldReturnDemoAccounts() {
       // Given - When - Then
       // Предусловия
       given()

@@ -7,7 +7,7 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInC
 
 class MobileBankApiTestV4 {
     @Test
-    void shouldReturnDemoAccounts() {
+    public void shouldReturnDemoAccounts() {
       // Given - When - Then
       // Предусловия
       given()
