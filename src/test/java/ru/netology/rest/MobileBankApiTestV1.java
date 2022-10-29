@@ -3,7 +3,6 @@ package ru.netology.rest;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
-
 public class MobileBankApiTestV1 {
     @Test
     public void shouldReturnDemoAccounts() {
@@ -17,5 +16,6 @@ public class MobileBankApiTestV1 {
       // Проверки
       .then()
           .statusCode(200);
-    }
+          }
+
 }
